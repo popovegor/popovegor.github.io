@@ -1,0 +1,44 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "72F3S9V8JP.su.ati.aticlient.universallinktest",
+        "components": [
+          {
+            "/": "/loadinfo/*"
+          },
+          {
+            "/": "/",
+            "#": "?loadId=*"
+          },
+          {
+            "/": "/",
+            "#": ""
+          }
+        ],
+        "defaults": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "appID": "72F3S9V8JP.su.ati.client.ios",
+        "components": [
+          {
+            "/": "/loadinfo/*"
+          },
+          {
+            "/": "/",
+            "#": "?loadId=*"
+          },
+          {
+            "/": "/",
+            "#": ""
+          }
+        ],
+        "defaults": {
+          "caseSensitive": "false"
+        }
+      }
+    ]
+  }
+}
